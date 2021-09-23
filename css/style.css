@@ -265,4 +265,90 @@ body .services .services_container .service_item div p {
 body .services .services_container .service_item div span {
   font-size: 13px;
 }
+
+body .best_seller .product_title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+body .best_seller .product_title .title_left p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+body .best_seller .product_title .title_left span {
+  font-size: 14px;
+  line-height: 1;
+  color: #888;
+}
+
+body .best_seller .product_title .title_right div i {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 20px;
+  color: #888;
+  border: 1px solid #ebebeb;
+  border-radius: 50%;
+  padding: 5px;
+  -webkit-transition: background-color ease .4s;
+  transition: background-color ease .4s;
+}
+
+body .best_seller .product_title .title_right div i:hover {
+  background-color: #4FB68D;
+  color: white;
+}
+
+body .best_seller .card .card-header {
+  background-color: #fff;
+  position: relative;
+  border-bottom: 0;
+}
+
+body .best_seller .card .card-header img {
+  width: 100%;
+}
+
+body .best_seller .card .card-header span {
+  display: inline-block;
+  background-color: #4FB68D;
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 5px;
+  font-weight: 700;
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+
+body .best_seller .card .card-body {
+  padding-bottom: 0;
+}
+
+body .best_seller .card .card-body span {
+  font-size: 12px;
+  color: #999;
+}
+
+body .best_seller .card .card-body h6 {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+body .best_seller .card .card-body p {
+  color: #9b9b9b;
+  font-size: 14px;
+}
+
+body .best_seller .card .card-body div i {
+  font-size: 18px;
+  color: #FDD835;
+}
 /*# sourceMappingURL=style.css.map */
