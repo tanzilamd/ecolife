@@ -231,4 +231,38 @@ body .banner .banner_right_1 img {
 body .banner .banner_right_2 img {
   width: 100%;
 }
+
+body .services {
+  margin: 60px 0;
+}
+
+body .services .services_container {
+  border: 1px solid #ebebeb;
+  padding: 25px;
+}
+
+body .services .services_container .service_item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .services .services_container .service_item img {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+body .services .services_container .service_item div p {
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+}
+
+body .services .services_container .service_item div span {
+  font-size: 13px;
+}
 /*# sourceMappingURL=style.css.map */
