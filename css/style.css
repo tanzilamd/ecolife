@@ -1,2 +1,74 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body header .welcome_text {
+  padding: 10px 0;
+  font-size: 14px;
+}
+
+body header .header_right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body header .header_right ul li {
+  list-style: none;
+}
+
+body header .header_right ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #253237;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 10px 20px;
+  position: relative;
+}
+
+body header .header_right ul li a::after {
+  content: "";
+  position: absolute;
+  background-color: #253237;
+  right: 0;
+  width: 1px;
+  height: 15px;
+}
+
+body header .header_right ul li a i {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+body header .header_right ul li a span {
+  display: inline-block;
+}
+
+body header .header_right ul li a .bx-chevron-down {
+  font-size: 20px;
+}
+
+body header .header_right ul li:last-child a {
+  padding-right: 0;
+}
+
+body header .header_right ul li:last-child a::after {
+  background-color: transparent;
+}
 /*# sourceMappingURL=style.css.map */
