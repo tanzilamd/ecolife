@@ -71,4 +71,105 @@ body header .header_right ul li:last-child a {
 body header .header_right ul li:last-child a::after {
   background-color: transparent;
 }
+
+body nav {
+  padding: 20px 0;
+  background-color: #253237;
+}
+
+body nav .nav_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body nav .nav_content .nav_items ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 0;
+}
+
+body nav .nav_content .nav_items ul li {
+  list-style: none;
+}
+
+body nav .nav_content .nav_items ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+}
+
+body nav .nav_content .nav_items ul li a i {
+  font-size: 22px;
+  font-weight: 300 !important;
+}
+
+body nav .nav_content .search_buy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .nav_content .search_buy ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+body nav .nav_content .search_buy ul li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .nav_content .search_buy ul li:first-child a {
+  margin-bottom: -7px;
+}
+
+body nav .nav_content .search_buy ul li:last-child a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body nav .nav_content .search_buy ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+body nav .nav_content .search_buy ul li a i {
+  font-size: 32px;
+}
+
+body nav .nav_content .search_buy ul li a span {
+  margin-left: 10px;
+  font-size: 14px;
+}
 /*# sourceMappingURL=style.css.map */

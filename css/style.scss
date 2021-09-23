@@ -62,4 +62,84 @@ body {
             }
         }
     }
+    nav {
+        padding: 20px 0;
+        background-color: #253237;
+        .logo {
+
+            img {
+
+            }
+        }
+        .nav_content {
+            display: flex;
+            justify-content: space-between;
+            .nav_items {
+                ul {
+                    display: flex;
+                    flex-wrap: wrap;
+                    margin-bottom: 0;
+
+                    li {
+                        list-style: none;
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-size: 14px;
+                            font-weight: 700;
+                            display: flex;
+                            align-items: center;
+                            padding: 10px 20px;
+                            span {
+
+                            }
+                            i {
+                                font-size: 22px;
+                                font-weight: 300 !important;
+                            }
+                        }
+                    }
+                }
+            }
+            .search_buy {
+                display: flex;
+                align-items: center;
+                ul {
+                    display: flex;
+                    margin-bottom: 0;
+                    li {
+                        list-style: none;
+                        display: flex;
+                        align-items: center;
+                        &:first-child {
+                            a {
+                                margin-bottom: -7px;
+                            }
+                        }
+                        &:last-child {
+                            a {
+                                display: flex;
+                                align-items: center;
+                            }
+                        }
+                        a {
+                            text-decoration: none;
+                            color: white;
+                            font-weight: 700;
+                            padding-left: 20px;
+                            
+                            i {
+                                font-size: 32px;
+                            }
+                            span {
+                                margin-left: 10px;
+                                font-size: 14px;
+
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
