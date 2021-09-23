@@ -12,6 +12,10 @@ body header .welcome_text {
   font-size: 14px;
 }
 
+body header .welcome_text p {
+  margin-bottom: 0;
+}
+
 body header .header_right ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -21,6 +25,7 @@ body header .header_right ul {
           justify-content: flex-end;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin-bottom: 0;
 }
 
 body header .header_right ul li {
@@ -186,6 +191,7 @@ body .slider {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 60px;
 }
 
 body .slider .slider_text span {
@@ -208,5 +214,21 @@ body .slider .slider_text button {
   padding: 8px 20px;
   font-weight: bold;
   margin: 20px 0;
+}
+
+body .banner .banner_left img {
+  width: 100%;
+}
+
+body .banner .banner_right_1 {
+  margin-bottom: 24px;
+}
+
+body .banner .banner_right_1 img {
+  width: 100%;
+}
+
+body .banner .banner_right_2 img {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */

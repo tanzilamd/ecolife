@@ -11,12 +11,16 @@ body {
         .welcome_text {
             padding: 10px 0;
             font-size: 14px;
+            p {
+                margin-bottom: 0;
+            }
         }
         .header_right {
             ul {
                 display: flex;
                 justify-content: flex-end;
                 flex-wrap: wrap;
+                margin-bottom: 0;
                 li {
                     list-style: none;
 
@@ -65,6 +69,7 @@ body {
     nav {
         padding: 20px 0;
         background-color: #253237;
+        
         .logo {
 
             img {
@@ -151,6 +156,7 @@ body {
         width: 100%;
         display: flex;
         align-items: center;
+        margin-bottom: 60px;
         .slider_text {
             span {
                 color: #253237;
@@ -170,6 +176,24 @@ body {
                 padding: 8px 20px;
                 font-weight: bold;
                 margin: 20px 0;
+            }
+        }
+    }
+    .banner {
+        .banner_left {
+            img {
+                width: 100%;
+            }
+        }
+        .banner_right_1 {
+            margin-bottom: 24px;
+            img {
+                width: 100%;
+            }
+        }
+        .banner_right_2 {
+            img {
+                width: 100%;
             }
         }
     }
