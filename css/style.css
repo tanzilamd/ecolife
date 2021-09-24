@@ -833,4 +833,27 @@ body .hot_deals .hot_deals_item .hot_deals_details > p span {
   font-size: 15px;
   font-weight: 700;
 }
+
+body .brands {
+  margin: 50px 0;
+}
+
+body .brands .brand_logo {
+  border: 1px solid #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  border-radius: 5px;
+}
+
+body .brands .brand_logo img {
+  display: inline-block;
+  width: 170px;
+}
 /*# sourceMappingURL=style.css.map */
