@@ -465,6 +465,7 @@ body {
                         font-size: 18px;
                         padding: 10px;
                     }
+                    
                 }
             }
             background-color: white;
@@ -522,6 +523,61 @@ body {
                 p {
                     color: #9b9b9b;
                     font-size: 15px
+                }
+            }
+        }
+    }
+    .hot_deals {
+        padding: 50px 0;
+        .hot_deals_item {
+            display: flex;
+            align-items: center;
+            border: 2px solid #4fb68d;
+            border-radius: 5px;
+            .hot_deals_img {
+                position: relative;
+                img {
+                    max-width: 300px;
+                }
+                span {
+                    display: inline-block;
+                    background-color: #4FB68D;
+                    color: white;
+                    font-size: 12px;
+                    padding: 2px 5px;
+                    border-radius: 5px;
+                    font-weight: 700;
+                    position: absolute;
+                    left: 10px;
+                    top: 10px;
+                }
+            }
+            .hot_deals_details {
+                text-align: center;
+                > span {
+                    color: #999;
+                    font-size: 16px;
+                }
+                h6 {
+                    font-size: 18px;
+                    font-weight: 700;
+                }
+                > div {
+                    i {
+                        font-size: 15px;
+                        color: #fdd835;
+                    }
+                }
+                .price {
+                    color: #9b9b9b;
+                }
+                > p {
+                    color: #9b9b9b;
+                    span {
+                        color: #4fb68d;
+                        font-size: 15px;
+                        font-weight: 700;
+                    }
                 }
             }
         }
