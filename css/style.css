@@ -857,6 +857,10 @@ body .brands .brand_logo img {
   width: 170px;
 }
 
+body .latest_blogs {
+  margin-bottom: 60px;
+}
+
 body .latest_blogs .blog_item {
   background-color: #f7f7f7;
   padding: 20px;
