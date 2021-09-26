@@ -734,4 +734,49 @@ body {
             }
         }
     }
+    .latest_blogs {
+        .blog_item {
+            background-color: #f7f7f7;
+            padding: 20px;
+            &:hover {
+                a {
+                    margin-left: 20px;          
+                }
+            }
+            button {
+                border: none;
+                background-color: #253237;
+                color: #fff;
+                border-radius: 30px;
+                font-size: 12px;
+                margin-bottom: 20px;
+                padding: 3px 15px;
+                text-transform: uppercase;
+            }
+            h6 {
+                font-weight: 700;
+                font-size: 16px;
+            }
+            p {
+                font-size: 14px;
+            }
+            a {
+                text-decoration: none;
+                font-size: 14px;
+                color: black;
+                position: relative;
+                transition: all ease .4s;
+                i {
+                    margin-left: 6px;
+                    color: #4fb68d;
+                    border-radius: 50%;
+                    font-size: 14px;
+                    position: absolute;
+                    top: 50%;
+                    transform: translateY(-40%);
+                }
+                
+            }
+        }
+    }
 }

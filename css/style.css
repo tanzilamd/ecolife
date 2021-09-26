@@ -856,4 +856,53 @@ body .brands .brand_logo img {
   display: inline-block;
   width: 170px;
 }
+
+body .latest_blogs .blog_item {
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+body .latest_blogs .blog_item:hover a {
+  margin-left: 20px;
+}
+
+body .latest_blogs .blog_item button {
+  border: none;
+  background-color: #253237;
+  color: #fff;
+  border-radius: 30px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  padding: 3px 15px;
+  text-transform: uppercase;
+}
+
+body .latest_blogs .blog_item h6 {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+body .latest_blogs .blog_item p {
+  font-size: 14px;
+}
+
+body .latest_blogs .blog_item a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+  position: relative;
+  -webkit-transition: all ease .4s;
+  transition: all ease .4s;
+}
+
+body .latest_blogs .blog_item a i {
+  margin-left: 6px;
+  color: #4fb68d;
+  border-radius: 50%;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-40%);
+          transform: translateY(-40%);
+}
 /*# sourceMappingURL=style.css.map */
