@@ -798,7 +798,7 @@ body {
                 
                 img {
                     width: 100%;
-                    transition: all .5s ease ;
+                    transition: all 1s ease ;
                 }
             }
             .popular_description {
@@ -835,6 +835,167 @@ body {
                         transform: translateY(-40%);
         
                     }
+                }
+            }
+        }
+    }
+    footer {
+        padding: 50px 0;
+        background-color: #F6F6F6;
+        .footer-1 {
+            .logo_description {
+                img {
+                    
+                }
+                p {
+                    font-size: 14px;
+                    color: #666;
+                    margin: 30px 0;
+                }
+            }
+            .contact_info {
+                h4 {
+                    font-size: 18px;
+
+                }
+                p {
+                    font-weight: 700;
+                    font-size: 18px;
+                    margin-bottom: 0;
+                }
+
+            }
+            .social_icons {
+                margin: 30px 0 0 0;
+                display: flex;
+                justify-content: space-between;
+                i {
+                    font-size: 22px;
+                    color: #666;
+                }
+            }
+        }
+        .footer-2 {
+            h5 {
+                padding: 20px 0;
+                margin-bottom: 20px;
+                position: relative;
+                font-weight: 700;
+                font-size: 16px;
+
+                &::before {
+                    content: "";
+                    height: 1px;
+                    width: 100%;
+                    background-color: #E3E3E3;
+                    bottom: 0;
+                    position: absolute;
+                }
+                &::after {
+                    content: "";
+                    height: 2px;
+                    width: 30%;
+                    left: 0;
+                    background-color: #4FB68D;
+                    bottom: 0;
+                    position: absolute;
+                }
+
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                color: #666;
+                line-height: 2.5;
+                font-size: 15px;
+            }
+        }
+        .footer-3 {
+            h5 {
+                padding: 20px 0;
+                margin-bottom: 20px;
+                position: relative;
+                font-weight: 700;
+                font-size: 16px;
+
+                &::before {
+                    content: "";
+                    height: 1px;
+                    width: 100%;
+                    background-color: #E3E3E3;
+                    bottom: 0;
+                    position: absolute;
+                }
+                &::after {
+                    content: "";
+                    height: 2px;
+                    width: 30%;
+                    left: 0;
+                    background-color: #4FB68D;
+                    bottom: 0;
+                    position: absolute;
+                }
+
+            }
+            a {
+                display: block;
+                text-decoration: none;
+                color: #666;
+                line-height: 2.5;
+                font-size: 15px;
+            }
+        }
+        .footer-4 {
+            h5 {
+                padding: 20px 0;
+                margin-bottom: 20px;
+                position: relative;
+                font-weight: 700;
+                font-size: 16px;
+
+                &::before {
+                    content: "";
+                    height: 1px;
+                    width: 100%;
+                    background-color: #E3E3E3;
+                    bottom: 0;
+                    position: absolute;
+                }
+                &::after {
+                    content: "";
+                    height: 2px;
+                    width: 30%;
+                    left: 0;
+                    background-color: #4FB68D;
+                    bottom: 0;
+                    position: absolute;
+                }
+            }
+            p {
+                font-size: 14px;
+                color: #666;
+                margin-top: 30px;
+            }
+            .input_box {
+                display: flex;
+                border: 1px solid transparent;
+                border-radius: 30px;
+                input {
+                    width: 75%;
+                    border-radius: 30px 0 0 30px;
+                    border: 0;
+                    outline: 0;
+                    padding: 8px 20px;
+                }
+                button {
+                    width: 25%;
+                    border: 0;
+                    border-radius: 0 30px 30px 0;
+                    background-color: #253237;
+                    color: white;
+
+                    font-size: 15px;
+                    font-weight: 600;
                 }
             }
         }
